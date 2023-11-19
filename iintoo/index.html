@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get iintoo it today</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <aside class="section-left">
+        <a href="" class="section-left__link">
+          <img class="section-left__logo" src="./img/logo.svg" alt="iintoo" />
+        </a>
+      </aside>
+      <section class="section-right">
+        <article class="section-right__header">
+          <h2 class="section-right__title">Get iintoo it today</h2>
+          <h4 class="section-right__subtitle">
+            There is no charge or obligation upon registration
+          </h4>
+        </article>
+        <div class="section-right__menu">
+          <button class="section-right__menu-button" name="Facebook">
+            <img
+              class="section-right__menu-image"
+              src="img/facebook.svg"
+              alt="Facebook button image"
+              width="18"
+            />
+            <span class="section-right__menu-button-text"> Register with Facebook </span>
+          </button>
+          <button class="section-right__menu-button section-right__menu-button_blue" name="LinkedIn">
+            <img
+              class="section-right__menu-image"
+              src="img/linkedin.svg"
+              alt="LinkedIn button image"
+              width="18"
+            />
+            <span class="section-right__menu-button-text"> Register with LinkedIn </span>
+          </button>
+        </div>
+        <p class="section-right__or">or</p>
+        <form class="section-right__form ">
+          <div class="section-right__menu">
+            <label class="section-right__menu-label">
+              <input
+                class="section-right__menu-input"
+                name="email"
+                placeholder="example@mail.com "
+              />
+              <span class="section-right__menu-text">Email</span>
+            </label>
+            <label class="section-right__menu-label">
+              <input class="section-right__menu-input" name="phone" placeholder=" " />
+              <span class="section-right__menu-text">Phone</span>
+            </label>
+          </div>
+          <div class="section-right__questions">
+            <h3 class="section-right__questions-title">What type of investor are you?</h3>
+            <p class="section-right__questions-description">Select the type of investor you are below.</p>
+            <div class="section-right__questions-radios radios">
+              <label class="radios__label">
+                <input
+                  class="radios__input"
+                  type="radio"
+                  name="investorType"
+                  id="Individual"
+                  checked
+                />
+                <span class="radios__text">Individual</span>
+                <small class="radios__tooltip">i</small>
+              </label>
+              <label class="radios__label">
+                <input
+                  class="radios__input"
+                  type="radio"
+                  name="investorType"
+                  id="Business"
+                />
+                <span class="radios__text">Business</span>
+                <small class="radios__tooltip">i</small>
+              </label>
+              <label class="radios__label">
+                <input
+                  class="radios__input"
+                  type="radio"
+                  name="investorType"
+                  id="IRA"
+                />
+                <span class="radios__text">IRA</span>
+                <small class="radios__tooltip">i</small>
+              </label>
+              <label class="radios__label">
+                <input
+                  class="radios__input"
+                  type="radio"
+                  name="investorType"
+                  id="Trust"
+                />
+                <span class="radios__text">Trust</span>
+                <small class="radios__tooltip">i</small>
+              </label>
+            </div>
+            <article class="section-right__about">
+              I am a natural person investing on my own behalf as a sole owner,
+              joint tenant, or tenant in common.
+            </article>
+            <label class="section-right__checkbox checkbox">
+              <input class="checkbox__input" type="checkbox" name="terms" />
+              <span class="checkbox__text">
+                I agree to the terms and receiving notifications from iintoo
+                <a class="checkbox__link" href="#">
+                  View full terms
+                </a>
+              </span>
+            </label>
+          </div>
+
+          <button class="section-right__btn_submit" type="button">
+            Create Account
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
